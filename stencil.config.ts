@@ -12,7 +12,7 @@ export const config: Config = {
       // comment the following line to disable service workers in production
       serviceWorker: null,
       // baseUrl: 'https://myapp.local/',
-      baseUrl: 'https://gerardstelt.github.io/',
+      baseUrl: 'https://gerardstelt.github.io/template',
       dir: 'docs'
     },
   ],
