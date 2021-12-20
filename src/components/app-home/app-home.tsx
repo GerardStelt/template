@@ -1,4 +1,5 @@
-import { Component, h } from '@stencil/core';
+import { Component, h } from '@stencil/core'
+import { sayHello } from '../../utils/utils';
 
 @Component({
   tag: 'app-home',
@@ -17,6 +18,7 @@ export class AppHome {
         <stencil-route-link url="profile/stencil">
           <button>Profile page</button>
         </stencil-route-link>
+        <button onClick={sayHello}>Say hello</button>
       </div>
     );
   }
